@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
+# Ben Dean
+_Software Engineer specializing in automation and tools to streamline the build and deployment pipelines._
 
-You can use the [editor on GitHub](https://github.com/b-dean/cv/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[Email] / [LinkedIn] / [GitHub] / [Keybase]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Technical Experience
 
-### Markdown
+**Senior Software Engineer** @ [Finvi] (formerly known as Ontario Systems) _(Sept 2008 - Present)_
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+**Software Developer / Instructor / Graduate Assistant** @ [Ball State University] _(2004 - 2008)_
 
-# Header 1
-## Header 2
-### Header 3
+## Skills
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Education
 
-**Bold** and _Italic_ and `Code` text
+**[Incomplete] Doctorate of Education** in Computer Science. GPA 4.00/4.00<br>
+[Ball State University] - Muncie, IN _(2006 - 2008)_
 
-[Link](url) and ![Image](src)
-```
+- Computing Theory cognate
+- Research in student perceptions, object-oriented design, computer game design, and their
+  applications in computer science education.
+- Degree abandoned to pursue software engineering career.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+**Master of Science** in Computer Science. GPA 3.97/4.00<br>
+[Ball State University] - Muncie, IN _(2004 - 2006)_
 
-### Jekyll Themes
+- Graduate courses in Software Engineering, Software Testing, Research Methods, Database Design,
+  Network Programming, Applied Cryptography, Graphical User Interfaces, Operating Systems,
+  Computational Geometry, and Theory of Computation.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/b-dean/cv/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Bachelor of Science** in Computer Science Systems. GPA 2.75/4.00<br>
+[Taylor University] - Upland, IN _(1998 - 2002)_
 
-### Support or Contact
+- Integrated computing track.
+- Systems analysis and design component.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Grove City College] - Grove City, PA _(1997 - 1998)_
+
+## Publications
+
+`2008`
+Paul Gestwicki, Fu-Shing Sun, and Benjamin Dean.
+Teaching Game Design and Game Programming Through Interdisciplinary Courses.
+_Journal of Computing Sciences in Colleges_,
+pages 110 -- 115.
+Consortium for Computing Sciences in Colleges, September 26, 2008.
+
+`2007`
+Benjamin Dean and Paul Gestwicki and Juan H.
+Measuring Changes in Perceptions and Self-efficacy in CS1,
+_Proceedings of the 2007 Internation Conference on Frontiers in Education: Computer Science and Computer Engineering_,
+pages 187 -- 192,
+CSREA Press, June 26, 2007
+
+## Hobbies
+
+
+[Email]: mailto:benthedean@gmail.com
+[LinkedIn]: https://linkedin.com/in/ben-dean-511346217
+[GitHub]: https://github.com/b-dean
+[Keybase]: https://keybase.io/b_dean
+[Finvi]: https://finvi.com
+[Ball State University]: https://bsu.edu
+[Taylor University]: https://tayloru.edu
+[Grove City College]: https://gcc.edu
