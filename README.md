@@ -1,6 +1,8 @@
 # Ben Dean's CV repo
 This is a repo where I plan to put a digital copy of my CV in the github pages.
 
+View it live: https://b-dean.github.io/cv/
+
 ## Usage
 If you want to run this locally, just do
 
