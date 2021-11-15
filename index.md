@@ -101,4 +101,11 @@ CSREA Press, June 26, 2007
 [Ball State University]: https://bsu.edu
 [Taylor University]: https://tayloru.edu
 [Grove City College]: https://gcc.edu
+[Jenkins]: https://www.jenkins.io
+[Chef]: https://www.chef.io
+[Terraform]: https://www.terraform.io
+[Packer]: https://www.packer.io
+[Docker]: https://www.docker.com/
+[Kubernetes]: https://kubernetes.io
+[Helm]: https://helm.sh
 [InterSystems]: https://intersystems.com
