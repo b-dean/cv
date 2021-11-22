@@ -98,7 +98,7 @@ In addition to the "devops" work, our team was often tasked with various side pr
     - HTML templates and JavaScript create a user interface that can be altered independently of the rest of the system.
     - PHP scripts control the application and fill the HTML templates with data
     - MySQL provides the relational database backend which stores all the dynamic web content.
-            
+
 **Contractor / Intern** @ Thomas & Betts Reznor _(2001 - 2002)_
 
 - Developed applications for the Quality Control and Information Technology departments using ASP, Visual Basic 6.0, HTML, JavaScript, MySQL, and AS/400 via ODBC.
@@ -108,6 +108,98 @@ In addition to the "devops" work, our team was often tasked with various side pr
 
 ## Skills
 
+I am familiar with many programming languages and technologies. Some of these are listed earlier in the work experience section, but I'll highlight some of the more recent skills here.
+
+### Programming languages
+
+- [Ruby]
+
+    Used in our [Chef] cookbooks, various automation tools, and some simple web applications.
+
+- [Go]
+
+    Used in microservices we deploy to [Kubernetes] and in various automation tools.
+
+- [HCL]
+
+    The configuration language of Hashicorp's [Terraform] and [Packer] tools.
+
+- [Make]
+
+    Most of our builds use have a `Makefile` that defines various build targets. These are designed to work
+    the same on the build server as in local environments so developers can build their software using the
+    same tools as the build server.
+
+- [Bash]
+
+    Used to script various repetitive tasks and as part of our build and deployment automation.
+
+- [Groovy]
+
+    Used in [Jenkins Pipeline] scripts and libraries of shared build pipeline functionality.
+
+- [ObjectScript]
+
+    The programming language used by the [InterSystems] platforms that many [Finvi] products are built upon.
+
+### Technologies, frameworks, and platforms
+
+- [AWS]
+
+    The cloud platform used for [Finvi]'s products. Services used include (but are not limited to)
+    EC2, ELB, VPC, Route 53, EKS, ECR, IAM, S3, Aurora, Lambda, KMS, and SSM.
+
+- [Chef]
+
+    This is used to install and configure [Finvi] software on EC2 instances in AWS. I have written and maintian over 30
+    cookbooks as well as utilizing and contributing to open source cookbooks from the [Chef Supermarket].
+
+- [Terraform]
+
+    I use Terraform to automate the creation of infrastructure in AWS. Our terraform repos are configured to deploy into
+    different AWS accounts based on configuration variables. Some common functionality is modularized to be reused by multiple
+    repos, and we also make use of some open source community modules from the [Terraform Registry].
+
+- [Docker]
+
+    Serveral [Finvi] products are based on microservices, which are built and delivered as Docker images. Most are either built on
+    base images from [Docker Hub] (running Alpine, Debian, or Ubuntu Linux operating systems) or from `scratch` images that run binaries
+    we build.
+
+- [Kubernetes]
+
+    We use Kubernetes, in particular AWS's Elastic Kubernetes Service ([EKS]) to deploy our container-based applications and microservices.
+
+- [Helm]
+
+    Helm is the tool we use to release code to our kube clusters. All of our microservices and web applications that run in kube have helm charts
+    in their repos. These charts also make use of some library charts we make available using a private [ChartMuseum]. We also make use of a number
+    open source charts to deploy things like [Jenkins][jenkins-chart], [NGINX Ingress Controller], [ExternalDNS], and [cert-manager].
+
+- [NGINX] and [Apache httpd]
+
+    Various [Finvi] products use Apache and/or NGINX to server their web applications or proxy to some backend webserver.
+
+- [Jenkins]
+
+    Jenkins is our build server, used both to build the [Finvi] products and deploy them to various stacks in AWS using all the aforementioned
+    technologies. Our Jenkins server is configured using [Configuration as Code][jCasC] and uses build nodes both on EC2 instances and kube pods.
+
+### Other skills
+There are a number of other skills that are important for software development but don't fit into the categories of programming languages or technologies.
+
+- I use a mixture of Windows and Linux for my development environment. My desktop is running [Xfce] desktop on Ubuntu.
+  I also know Amazon Linux, CentOS, Red Hat, Debian, and a little Alpine Linux for our EC2 and Docker container-based products.
+- I have used a source control systems and am most familiar with [Git] and [Mercurial].
+- I encourage teams to use [Semantic Versioning] to help with dependency management software maintainability.
+- I have worked with a number of branching strategies, in particular [Gitflow] and [feature branch] workflows.
+  Open source projects I've contributed to typically use some form of [GitHub flow] or trunk-based workflows.
+- I have contributed to a number of open source projects and am skilled at reading other people's code.
+- I have used [Jira] and [FogBugz] for task management
+- I have worked on teams that use Scrum and Kanban-based processes. I've also read the [Manifesto for Agile Software Development][agile]
+- I have used [Test-driven Development][tdd] on a number of projects.
+- My text editor of choice is [Vim] but I've also used JetBrains IntelliJ and RubyMine, Visual Studio, VSCode, Notepad++, and others.
+  I used to use Emacs in grad school and don't hold anything against people who prefer it over `vi`.
 
 ## Education
 
@@ -169,3 +261,36 @@ CSREA Press, June 26, 2007
 [InterSystems]: https://intersystems.com
 [Sun SPOT]: https://en.wikipedia.org/wiki/Sun_SPOT
 [SERC]: https://www.serc.net
+[Chef Supermarket]: https://supermarket.chef.io
+[Terraform Registry]: https://registry.terraform.io
+[Docker Hub]: https://hub.docker.com
+[Ruby]: https://www.ruby-lang.org
+[Go]: https://golang.org
+[HCL]: https://github.com/hashicorp/hcl
+[Bash]: https://www.gnu.org/software/bash
+[Groovy]: https://groovy-lang.org
+[Jenkins Pipeline]: https://www.jenkins.io/doc/book/pipeline
+[ObjectScript]: https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=PAGE_objectscript
+[AWS]: https://aws.amazon.com
+[EKS]: https://aws.amazon.com/eks
+[ChartMuseum]: https://chartmuseum.com
+[jenkins-chart]: https://github.com/jenkinsci/helm-charts
+[NGINX Ingress Controller]: https://github.com/kubernetes/ingress-nginx
+[ExternalDNS]: https://github.com/kubernetes-sigs/external-dns
+[cert-manager]: https://github.com/jetstack/cert-manager
+[jCasC]: https://www.jenkins.io/projects/jcasc
+[Make]: https://www.gnu.org/software/make/manual/make.html
+[NGINX]: https://www.nginx.com
+[Apache httpd]: https://httpd.apache.org
+[Gitflow]: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+[feature branch]: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+[GitHub flow]: https://docs.github.com/en/get-started/quickstart/github-flow
+[Xfce]: https://www.xfce.org
+[Vim]: https://www.vim.org
+[agile]: https://agilemanifesto.org
+[tdd]: https://en.wikipedia.org/wiki/Test-driven_development
+[Jira]: https://www.atlassian.com/software/jira
+[FogBugz]: https://fogbugz.com
+[Semantic Versioning]: https://semver.org
+[Git]: https://git-scm.com
+[Mercurial]: https://www.mercurial-scm.org
