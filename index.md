@@ -45,6 +45,66 @@ In addition to the "devops" work, our team was often tasked with various side pr
 **Software Developer / Instructor / Graduate Assistant** @ [Ball State University] _(2004 - 2008)_
 
 
+`2008, 2009, 2011, 2015, 2016` - Mathematics Department - Software Developer
+
+- Hired to add features to the Julia Fractal Drawing Tool, a Java	application.
+- Restructured the project migrating the original code base to GitHub: [bsumath/julia](https://github.com/bsumath/julia)
+- Refactored and redesigned portions of the system using object-oriented principles and design patterns.
+
+
+`Summer 2008` - Computer Science Department - Instructor
+
+- Taught Introduction to Microcomputers course.
+- Was responsible for lab exercises, lectures, assignments, exams, and grading.
+
+
+`Spring 2008` - Computer Science Department - Teaching Internship
+
+- Was one of three instructors to team-teach an interdisciplinary course on computer game design.
+- Applied a process based on the Scrum iterative incremental process for agile software development while working with a team of students developing a computer game.
+- Designed a lecture and sample program to demonstrate methods of efficient collision detection using the Visitor and Strategy software design patterns.
+- Instructed students on object-oriented design, software design patterns, refactoring and redesigning software, and the use of collaborative tools such as Subversion.
+
+`Spring 2008` - Computer Science Department - Sun SPOT research team
+
+- Collaborative project to explore the Sun SPOT's capabilities and its uses in computer science education.
+- The [Sun SPOT] (Small Programmable Object Technology) is a wireless sensor device that runs the Squawk Java Virtual Machine. This allows it to run CLDC 1.1 Java ME applications.
+- Developed a wireless population growth and migration simulation to run on two or more Sun SPOTs.
+
+
+`2007 - 2008` - Computer Science Department - Research Assistant
+
+- Collaborated with a professor in writing research abstracts and papers.
+- Computer science education experiments and statistical analysis of student survey data.
+- Web development and software tool development to support research.
+
+`2006` - Software Engineering Research Center ([SERC]) - Research Assistant
+
+- Member of Global Software Testing research team. Funded by the NSF in conjunction with the University of Limerick, Ireland.
+- Member of SMART: Security Measurements and Assuring Reliability through Metrics Technology research team. Funded by the Army Research Lab.
+- Lead developer of the Global Access Testing Environment (GATE). Software testing management web application written in PHP, HTML templates, JavaScript, Asynchronous JSON, and MySQL.
+
+`2004 - 2005` - Computer Science Department - Teaching Assistant
+
+- Courses in Java, C++, Visual Basic.net, Access databases.
+- Responsibilities include lab instructor, grader, substitute lecturer, office hours.
+- Designed Bash scripts to automate parts of the grading process.
+
+
+**Freelance Web Developer** _(2003 - 2004)_
+
+- Met with clients to analyze their business needs.
+- Designed and implemented a simple content management web application that can be modified for a variety of business solutions.
+    - HTML templates and JavaScript create a user interface that can be altered independently of the rest of the system.
+    - PHP scripts control the application and fill the HTML templates with data
+    - MySQL provides the relational database backend which stores all the dynamic web content.
+            
+**Contractor / Intern** @ Thomas & Betts Reznor _(2001 - 2002)_
+
+- Developed applications for the Quality Control and Information Technology departments using ASP, Visual Basic 6.0, HTML, JavaScript, MySQL, and AS/400 via ODBC.
+- Lead developer responsible for the design and implementation of the applications.
+- Met with end users to design systems that fit their business needs.
+- Conducted testing and troubleshooting of applications to make them stable for use in a production environment.
 
 ## Skills
 
@@ -90,8 +150,6 @@ _Proceedings of the 2007 Internation Conference on Frontiers in Education: Compu
 pages 187 -- 192,
 CSREA Press, June 26, 2007
 
-## Hobbies
-
 
 [Email]: mailto:benthedean@gmail.com
 [LinkedIn]: https://linkedin.com/in/ben-dean-511346217
@@ -109,3 +167,5 @@ CSREA Press, June 26, 2007
 [Kubernetes]: https://kubernetes.io
 [Helm]: https://helm.sh
 [InterSystems]: https://intersystems.com
+[Sun SPOT]: https://en.wikipedia.org/wiki/Sun_SPOT
+[SERC]: https://www.serc.net
