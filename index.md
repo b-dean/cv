@@ -4,9 +4,19 @@ _Software Engineer specializing in automation and tools to streamline the build 
 
 [Email] / [LinkedIn] / [GitHub] / [Keybase]
 
+## TL;DR
+Just the highlights in case you don't want to read the whole thing.
+
+* Over 14 years of experience on various DevOps, Build, Tools teams
+* Extensive experience with various DevOps tools and frameworks, IaC, CI/CD, etc
+* **Automate Everything** - I do not like manual processes. Automation reduces the opportunity for human error.
+* Ability to learn whatever is needed. Gained from years of reading other people's code to help them
+    figure out what's going wrong and solving complex problems. Also from picking up new programming
+    languages and technologies.
+
 ## Technical Experience
 
-**Senior Software Engineer** @ [Finvi] (formerly known as Ontario Systems) _(2008 - Present)_
+**Lead Software Engineer** @ [Finvi] (formerly known as Ontario Systems) _(2008 - Present)_
 
 `Jan 2012 - Present` - Various "DevOps" teams and projects
 
@@ -14,7 +24,7 @@ Starting around the beginning of 2012 I joined a team whose goal was to automate
 This started with deploying systems to private hosted environments (VMWare) and transitioned over time to deploy system to public cloud services (AWS).
 There are a number of technologies and tools used some dating back to that initial work in 2012.
 
-- [Jenkins] - build server
+- [Jenkins] - build server, deployment orchestration
 - [Chef] - configuration management and automated software provisioning
 - [Terraform] - infrastructure automation
 - [Packer] - building images to deploy in AWS
@@ -118,11 +128,13 @@ I am familiar with many programming languages and technologies. Some of these ar
 
 - [Go]
 
-    Used in microservices we deploy to [Kubernetes] and in various automation tools.
+    Used in microservices we deploy to [Kubernetes] and in various automation tools. I'm familar
+    with many popular open source go libraries and SDKs.
 
 - [HCL]
 
-    The configuration language of Hashicorp's [Terraform] and [Packer] tools.
+    The configuration language of Hashicorp's [Terraform] and [Packer] tools. Also recently used in
+    [Docker bake] for building images.
 
 - [Make]
 
@@ -141,6 +153,9 @@ I am familiar with many programming languages and technologies. Some of these ar
 - [ObjectScript]
 
     The programming language used by the [InterSystems] platforms that many [Finvi] products are built upon.
+
+- I often have to help product teams figure out what's going wrong in their projects which involves
+  reading and sometimes writing code in various languages. These include Python, C#, C++, Java, Perl, etc.
 
 ### Technologies, frameworks, and platforms
 
@@ -168,7 +183,7 @@ I am familiar with many programming languages and technologies. Some of these ar
 
 - [Kubernetes]
 
-    We use Kubernetes, in particular AWS's Elastic Kubernetes Service ([EKS]) to deploy our container-based applications and microservices.
+    We use Kubernetes, in particular AWS's Elastic Kubernetes Service ([EKS]) and Oracle's OCI Kubernetes Engine ([OKE]) to deploy our container-based applications and microservices.
 
 - [Helm]
 
@@ -203,13 +218,13 @@ There are a number of other skills that are important for software development b
 
 ## Education
 
-**[Incomplete] Doctorate of Education** in Computer Science. GPA 4.00/4.00<br>
+**(Incomplete) Doctorate of Education** in Computer Science. GPA 4.00/4.00<br>
 [Ball State University] - Muncie, IN _(2006 - 2008)_
 
 - Computing Theory cognate
 - Research in student perceptions, object-oriented design, computer game design, and their
   applications in computer science education.
-- Degree abandoned to pursue software engineering career.
+- Decided to pursue software engineering career rather than finishing Ed.D. degree.
 
 **Master of Science** in Computer Science. GPA 3.97/4.00<br>
 [Ball State University] - Muncie, IN _(2004 - 2006)_
@@ -256,6 +271,7 @@ CSREA Press, June 26, 2007
 [Terraform]: https://www.terraform.io
 [Packer]: https://www.packer.io
 [Docker]: https://www.docker.com/
+[Docker bake]: https://docs.docker.com/build/bake/
 [Kubernetes]: https://kubernetes.io
 [Helm]: https://helm.sh
 [InterSystems]: https://intersystems.com
@@ -273,6 +289,7 @@ CSREA Press, June 26, 2007
 [ObjectScript]: https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=PAGE_objectscript
 [AWS]: https://aws.amazon.com
 [EKS]: https://aws.amazon.com/eks
+[OKE]: https://www.oracle.com/cloud/cloud-native/kubernetes-engine/
 [ChartMuseum]: https://chartmuseum.com
 [jenkins-chart]: https://github.com/jenkinsci/helm-charts
 [NGINX Ingress Controller]: https://github.com/kubernetes/ingress-nginx
