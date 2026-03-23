@@ -1,4 +1,18 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'jekyll', '~> 4.2'
+
+group :jekyll_plugins do
+  gem 'jekyll-remote-theme', '~> 0.4.3'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-commonmark-ghpages'
+  gem 'jekyll-github-metadata'
+  gem 'jekyll-optional-front-matter'
+  gem 'jekyll-default-layout'
+  gem 'jekyll-titles-from-headings'
+end
+
+group :hacks do
+  gem 'jekyll-sass-converter', '< 3'
+  gem 'bigdecimal'
+end

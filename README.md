@@ -26,4 +26,4 @@ Here's some things I found useful making this CV:
   GitHub Pages sites with Jekyll.
 - [The Jekyll docs](https://jekyllrb.com/docs/)
 
-Also I feel like I should give credit for the `favicon.ico` which I got [from freefavicon.com](https://freefavicon.com/freefavicons/software/iconinfo/iconconsole-152-22674.html).
+Also, I feel like I should give credit for the `favicon.ico` which I got [from freefavicon.com](https://freefavicon.com/freefavicons/software/iconinfo/iconconsole-152-22674.html).
