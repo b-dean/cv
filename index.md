@@ -1,3 +1,9 @@
+---
+layout: main
+---
+{:pdfHidden: .pdf-hidden}
+{:pdfBreak: .pdf-break}
+
 # Ben Dean
 
 _Software Engineer specializing in automation and tools to streamline the build and deployment pipelines._
@@ -43,10 +49,10 @@ In addition to the "devops" work, our team was often tasked with various side pr
 `Jan 2009 - Dec 2011` - Large scale .NET-based enterprise web application built on top of Microsoft Dynamics CRM and hosted in IIS 7.
 
 - As a member of tools/build team I was responsible for understanding the system architecture and providing utility programs, libraries, and installers that enable the rest of the team to be productive and deliver a cohesive, working product.
-- The tecnologies used in this product include .NET 3.5, Microsoft Dynamics CRM, SharePoint, IIS 7, C#, WCF, WF, Silverlight, SQL Server, WiX, T4 Code Generation, MSTest, and Rhino.Mocks.
+- The technologies used in this product include .NET 3.5, Microsoft Dynamics CRM, SharePoint, IIS 7, C#, WCF, WF, Silverlight, SQL Server, WiX, T4 Code Generation, MSTest, and Rhino.Mocks.
 - Microsoft Team Foundation Server was used as a source control repository and task tracking system.
 
-`Sept 2008 - Dec 2008` - Large scale java-based enterprise web application using the Spring Framework and hosted on the JBoss Application Server.
+`Sept 2008 - Dec 2008` - Large scale Java-based enterprise web application using the Spring Framework and hosted on the JBoss Application Server.
 
 - On this product I worked on a team responsible for providing the framework code that connected the entire application. We used Spring's Inversion of Control framework to wire together the different parts of the larger web application.
 - The technologies used in this product include Java 6, Spring, JBoss, Hibernate, JMS, CXF, JUnit, and EasyMock.
@@ -102,21 +108,26 @@ In addition to the "devops" work, our team was often tasked with various side pr
 
 
 **Freelance Web Developer** _(2003 - 2004)_
+{: pdfHidden}
 
 - Met with clients to analyze their business needs.
 - Designed and implemented a simple content management web application that can be modified for a variety of business solutions.
     - HTML templates and JavaScript create a user interface that can be altered independently of the rest of the system.
     - PHP scripts control the application and fill the HTML templates with data
     - MySQL provides the relational database backend which stores all the dynamic web content.
-
+{: pdfHidden}
+  
 **Contractor / Intern** @ Thomas & Betts Reznor _(2001 - 2002)_
+{: pdfHidden}
 
 - Developed applications for the Quality Control and Information Technology departments using ASP, Visual Basic 6.0, HTML, JavaScript, MySQL, and AS/400 via ODBC.
 - Lead developer responsible for the design and implementation of the applications.
 - Met with end users to design systems that fit their business needs.
 - Conducted testing and troubleshooting of applications to make them stable for use in a production environment.
+{: pdfHidden}
 
 ## Skills
+{: pdfBreak}
 
 I am familiar with many programming languages and technologies. Some of these are listed earlier in the work experience section, but I'll highlight some of the more recent skills here.
 
@@ -128,7 +139,7 @@ I am familiar with many programming languages and technologies. Some of these ar
 
 - [Go]
 
-    Used in microservices we deploy to [Kubernetes] and in various automation tools. I'm familar
+    Used in microservices we deploy to [Kubernetes] and in various automation tools. I'm familiar
     with many popular open source go libraries and SDKs.
 
 - [HCL]
@@ -166,7 +177,7 @@ I am familiar with many programming languages and technologies. Some of these ar
 
 - [Chef]
 
-    This is used to install and configure [Finvi] software on EC2 instances in AWS. I have written and maintian over 30
+    This is used to install and configure [Finvi] software on EC2 instances in AWS. I have written and maintain over 30
     cookbooks as well as utilizing and contributing to open source cookbooks from the [Chef Supermarket].
 
 - [Terraform]
@@ -177,7 +188,7 @@ I am familiar with many programming languages and technologies. Some of these ar
 
 - [Docker]
 
-    Serveral [Finvi] products are based on microservices, which are built and delivered as Docker images. Most are either built on
+    Several [Finvi] products are based on microservices, which are built and delivered as Docker images. Most are either built on
     base images from [Docker Hub] (running Alpine, Debian, or Ubuntu Linux operating systems) or from `scratch` images that run binaries
     we build.
 
@@ -213,18 +224,20 @@ There are a number of other skills that are important for software development b
 - I have used [Jira] and [FogBugz] for task management
 - I have worked on teams that use Scrum and Kanban-based processes. I've also read the [Manifesto for Agile Software Development][agile]
 - I have used [Test-driven Development][tdd] on a number of projects.
-- My text editor of choice is [Vim] but I've also used JetBrains IntelliJ and RubyMine, Visual Studio, VSCode, Notepad++, and others.
+- My text editor of choice is [Vim], but I've also used JetBrains IntelliJ and RubyMine, Visual Studio, VSCode, Notepad++, and others.
   I used to use Emacs in grad school and don't hold anything against people who prefer it over `vi`.
 
 ## Education
 
 **(Incomplete) Doctorate of Education** in Computer Science. GPA 4.00/4.00<br>
 [Ball State University] - Muncie, IN _(2006 - 2008)_
+{: pdfHidden}
 
 - Computing Theory cognate
 - Research in student perceptions, object-oriented design, computer game design, and their
   applications in computer science education.
 - Decided to pursue software engineering career rather than finishing Ed.D. degree.
+{: pdfHidden}
 
 **Master of Science** in Computer Science. GPA 3.97/4.00<br>
 [Ball State University] - Muncie, IN _(2004 - 2006)_
@@ -232,16 +245,20 @@ There are a number of other skills that are important for software development b
 - Graduate courses in Software Engineering, Software Testing, Research Methods, Database Design,
   Network Programming, Applied Cryptography, Graphical User Interfaces, Operating Systems,
   Computational Geometry, and Theory of Computation.
+{: pdfHidden}
 
 **Bachelor of Science** in Computer Science Systems. GPA 2.75/4.00<br>
 [Taylor University] - Upland, IN _(1998 - 2002)_
 
 - Integrated computing track.
 - Systems analysis and design component.
+{: pdfHidden}
 
 [Grove City College] - Grove City, PA _(1997 - 1998)_
+{: pdfHidden}
 
 ## Publications
+{: pdfHidden}
 
 `2008`
 Paul Gestwicki, Fu-Shing Sun, and Benjamin Dean.
@@ -249,6 +266,7 @@ Teaching Game Design and Game Programming Through Interdisciplinary Courses.
 _Journal of Computing Sciences in Colleges_,
 pages 110 -- 115.
 Consortium for Computing Sciences in Colleges, September 26, 2008.
+{: pdfHidden}
 
 `2007`
 Benjamin Dean and Paul Gestwicki and Juan H.
@@ -256,7 +274,7 @@ Measuring Changes in Perceptions and Self-efficacy in CS1,
 _Proceedings of the 2007 Internation Conference on Frontiers in Education: Computer Science and Computer Engineering_,
 pages 187 -- 192,
 CSREA Press, June 26, 2007
-
+{: pdfHidden}
 
 [Email]: mailto:benthedean@gmail.com
 [LinkedIn]: https://linkedin.com/in/ben-dean-511346217

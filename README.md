@@ -25,5 +25,10 @@ Here's some things I found useful making this CV:
   and [testing](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
   GitHub Pages sites with Jekyll.
 - [The Jekyll docs](https://jekyllrb.com/docs/)
-
-Also, I feel like I should give credit for the `favicon.ico` which I got [from freefavicon.com](https://freefavicon.com/freefavicons/software/iconinfo/iconconsole-152-22674.html).
+- Copied [_layouts/default.html](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html)
+  from the jekyll-minimal-theme, so I could add a pdf download link.
+- This [Stack Overflow question about using pdfkit and Jekyll](https://stackoverflow.com/q/43137876/210475)
+- The great `favicon.ico` came [from freefavicon.com](https://freefavicon.com/freefavicons/software/iconinfo/iconconsole-152-22674.html).
+- The [PDF icon](https://www.iconpacks.net/free-icon/pdf-3375.html) by 
+  [Iconpacks](https://www.iconpacks.net/?utm_source=link-attribution&utm_content=3375)
+- 

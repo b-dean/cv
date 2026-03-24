@@ -2,7 +2,7 @@ title: Curriculum Vitae
 description: Ben Dean's Digital CV
 repository: b-dean/cv
 
-markdown: CommonMarkGhPages
+markdown: kramdown
 remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
@@ -11,4 +11,9 @@ plugins:
   - jekyll-github-metadata
   - jekyll-titles-from-headings
   - jekyll-optional-front-matter
-  - jekyll-commonmark-ghpages
+
+defaults:
+  - scope:
+      path: assets/img
+    values:
+      image: true
