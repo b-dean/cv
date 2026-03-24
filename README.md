@@ -31,4 +31,4 @@ Here's some things I found useful making this CV:
 - The great `favicon.ico` came [from freefavicon.com](https://freefavicon.com/freefavicons/software/iconinfo/iconconsole-152-22674.html).
 - The [PDF icon](https://www.iconpacks.net/free-icon/pdf-3375.html) by 
   [Iconpacks](https://www.iconpacks.net/?utm_source=link-attribution&utm_content=3375)
-- 
+ 
