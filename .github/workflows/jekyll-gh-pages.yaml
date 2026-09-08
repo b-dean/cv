@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -34,17 +34,13 @@ jobs:
           sudo apt-get install -y wkhtmltopdf
       - name: Setup Pages
         id: pages
-        uses: b-dean/configure-pages@node24
-        # see https://github.com/actions/configure-pages/pull/186
-        # uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
-        uses: Tom-van-Woudenberg/upload-pages-artifact@4a90348b2933470dc78cec55534259872a6d3c0d
-        # see https://github.com/actions/upload-pages-artifact/pull/139
-        #uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
 
   # Deployment job
   deploy:
@@ -56,6 +52,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: salmanmkc/deploy-pages@bbe2a950ee52d4f5cbe74e6d9d6a8803676e91d5
-        # See https://github.com/actions/deploy-pages/pull/404
-        # uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
