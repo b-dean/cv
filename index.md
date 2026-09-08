@@ -17,7 +17,7 @@ Just the highlights in case you don't want to read the whole thing.
 
 * Over {{ site.time | date: "%Y" | minus: 2012 }} years of experience on various DevOps, Build,
   Tools teams.
-* Extensive experience with various DevOps tools and frameworks, IaC, CI/CD, etc.
+* Extensive experience with various DevOps tools and frameworks, IaC, CI/CD, GitOps, etc.
 * **Automate Everything** - I do not like manual processes. Automation reduces the opportunity for
   human error.
 * Ability to learn whatever is needed. Gained from years of reading other people's code to help them
@@ -43,6 +43,8 @@ work in 2012.
 - [Docker] - building containerized applications
 - [Kubernetes] - cluster for running containerized microservices
 - [Helm] - deploying software releases to Kubernetes
+- [GitOps] - redesigning our branching and deployment methodologies to start to adopt GitOps
+  principles.
 
 In addition to the "devops" work, our team was often tasked with various side projects. Some notable
 projects are:
@@ -53,7 +55,7 @@ projects are:
 - Web app to track delivery of software products to premise customers.
 - CLI for launching containerized versions of [InterSystems] Caché/Ensemble/IRIS products in Docker.
 - Web app and auto-updating framework for downloading and updating various in-house tools.
-
+- Updating builds for old Python 2.7 code with help from [Microsoft Copilot] AI.
 
 `Jan 2009 - Dec 2011` - Large scale .NET-based enterprise web application built on top of Microsoft
 Dynamics CRM and hosted in IIS 7.
@@ -409,3 +411,5 @@ CSREA Press, June 26, 2007
 [Semantic Versioning]: https://semver.org
 [Git]: https://git-scm.com
 [Mercurial]: https://www.mercurial-scm.org
+[Microsoft Copilot]: https://copilot.microsoft.com
+[GitOps]: https://www.cncf.io/blog/2021/09/28/gitops-101-whats-it-all-about/
